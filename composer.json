@@ -1,0 +1,17 @@
+{
+    "name": "red-ochsenbein/php-minimum",
+    "homepage": "https://github.com/syeo66/php-minimum",
+    "description": "Docker Image for my (usual) minimal php needs",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^1.34",
+        "symfony/yaml": "^3.3",
+        "symfony/cache": "^3.3"
+    }
+}

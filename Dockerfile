@@ -12,3 +12,6 @@ COPY ./get_composer.sh /var/www/html/get_composer.sh
 RUN chmod 755 /var/www/html/get_composer.sh
 RUN /var/www/html/get_composer.sh
 
+COPY ./composer.json /var/www/html
+
+RUN /var/www/html/composer.phar install
