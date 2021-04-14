@@ -1,7 +1,7 @@
 FROM php:7.4-apache
 
 RUN apt-get update
-RUN apt-get -yq install wget git
+RUN apt-get -yq install wget git unzip
 
 #INSTALL APCU
 RUN pecl install apcu && docker-php-ext-enable apcu
